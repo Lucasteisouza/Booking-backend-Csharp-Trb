@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2/V4CLNSRaPQE3Sa1dv0x4pbueBb+zecspa0WajnFjCt1/zDtpKjFE/6BrW76Tz+YgJgitqwjDsl0ESw/XMnww==",
+  "dgSpecHash": "iIivMMhKMfrqL2Eh6g34NiWXG1vdqRSmfPJcN2dj8RuUgiD+Y1MHQVFeNHVkCNeCD78yftRkCH9c10hqj4wZiA==",
   "success": true,
   "projectFilePath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/TrybeHotel.test.test.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.design/7.0.0/microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.0/microsoft.entityframeworkcore.inmemory.7.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.4/microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.relational.design/1.1.1/microsoft.entityframeworkcore.relational.design.1.1.1.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.4/microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0/microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
@@ -93,9 +94,12 @@
     "/home/lucas/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/lucas/.nuget/packages/moq/4.17.2/moq.4.17.2.nupkg.sha512",
+    "/home/lucas/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
     "/home/lucas/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/home/lucas/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/lucas/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/pomelo.entityframeworkcore.mysql.design/1.1.2/pomelo.entityframeworkcore.mysql.design.1.1.2.nupkg.sha512",
     "/home/lucas/.nuget/packages/richardszalay.mockhttp/6.0.0/richardszalay.mockhttp.6.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/lucas/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

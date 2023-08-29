@@ -458,3 +458,7 @@
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/obj/Debug/net6.0/ref/TrybeHotel.test.test.dll
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.pdb
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/obj/Debug/net6.0/TrybeHotel.test.test.genruntimeconfig.cache
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/bin/Debug/net6.0/MySqlConnector.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel.Test.Test/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.Design.dll

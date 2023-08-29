@@ -70,6 +70,9 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Email).RequireClaim(ClaimTypes.Role, "admin"));
 });
 
+var port = builder.Configuration["PORT"];
+builder.WebHost.UseUrls($"http://*:{port};http://localhost:3000");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

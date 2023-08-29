@@ -15,8 +15,8 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     public TrybeHotelContext() { }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-        var connectionString = "Server=localhost;Database=TrybeHotel;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
-        optionsBuilder.UseSqlServer(connectionString);
+        var connectionString = "Server=containers-us-west-65.railway.app;User Id=root;Password=V2FVED8UPN1OgVYDbivL;Port=6478;Database=railway;";
+        optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), null);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {}
