@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/TrybeHotel.csproj": {}
+    "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/TrybeHotel.csproj": {}
   },
   "projects": {
-    "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/TrybeHotel.csproj": {
+    "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/TrybeHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/TrybeHotel.csproj",
+        "projectUniqueName": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/TrybeHotel.csproj",
         "projectName": "TrybeHotel",
-        "projectPath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/TrybeHotel.csproj",
+        "projectPath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/TrybeHotel.csproj",
         "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/obj/",
+        "outputPath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lucas/.nuget/NuGet/NuGet.Config"

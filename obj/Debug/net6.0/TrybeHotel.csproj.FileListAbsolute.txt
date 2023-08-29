@@ -87,3 +87,13 @@
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/bin/Debug/net6.0/MySqlConnector.dll
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.Design.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.csproj.AssemblyReference.cache
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.AssemblyInfoInputs.cache
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.AssemblyInfo.cs
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.csproj.CoreCompileInputs.cache
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.MvcApplicationPartsAssemblyInfo.cs
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.MvcApplicationPartsAssemblyInfo.cache
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/ref/TrybeHotel.dll
+/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/obj/Debug/net6.0/TrybeHotel.pdb

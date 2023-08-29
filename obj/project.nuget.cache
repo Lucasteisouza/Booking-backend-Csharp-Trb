@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ikszUp7IjFPX9hYveKqE8yYYZh3WCK8CcVtjMlkct8/f8Sm6pVDLbU4cnYTv7Uh/BQhk6Gy8++pJlKjXFrVX3w==",
+  "dgSpecHash": "5w9s6Qv5/NFGtcO9CwTweeO3dVUZ4Dm2u3jE3IhXv8umMnAmzDdXcvvW4SUFvK9DlJmeo9zm1RrJ4JkPcli1rA==",
   "success": true,
-  "projectFilePath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/TrybeHotel.csproj",
+  "projectFilePath": "/home/lucas/Documentos/Projetos-Trybe/csharp-026-csharp-projeto-trybe-hotel-fase-d/TrybeHotel.csproj",
   "expectedPackageFiles": [
     "/home/lucas/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
