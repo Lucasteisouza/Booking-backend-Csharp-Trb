@@ -21,12 +21,35 @@ namespace TrybeHotel.Services
         }
         public string Generate(UserDto user)
         {
-            throw new NotImplementedException();
+            JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
+            var tokenDescriptor = new SecurityTokenDescriptor()
+            {
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_tokenOptions.Secret)),
+                    SecurityAlgorithms.HmacSha256Signature
+                ),
+                Expires = DateTime.Now.AddDays(_tokenOptions.ExpiresDay),
+                Subject = AddClaims(user)
+            };
+
+            SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
+
+            return tokenHandler.WriteToken(token);
         }
 
         private ClaimsIdentity AddClaims(UserDto user)
         {
-            throw new NotImplementedException();
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Email, user.Email)
+            };
+
+            if (user.userType == "admin")
+            {
+                claims.Add(new Claim(ClaimTypes.Role, "admin"));
+            }
+
+            return new ClaimsIdentity(claims);
         }
     }
 }

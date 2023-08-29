@@ -17,21 +17,73 @@ namespace TrybeHotel.Repository
 
         public UserDto Login(LoginDto login)
         {
-            throw new NotImplementedException();
+           var user = from u in _context.Users
+                      where u.Email == login.Email && u.Password == login.Password
+                      select new UserDto
+                      {
+                          UserId = u.UserId,
+                          Name = u.Name,
+                          Email = u.Email,
+                          userType = u.UserType
+                      };
+            if (user.Count() == 0)
+            {
+                return null;
+            }
+            return user.Last();
         }
         public UserDto Add(UserDtoInsert user)
         {
-            throw new NotImplementedException();
+            User userToInsert = new User
+            {
+                Name = user.Name,
+                Email = user.Email,
+                Password = user.Password,
+                UserType = "client"
+            };
+            _context.Users.Add(userToInsert);
+            _context.SaveChanges();
+            var newUser = from u in _context.Users
+                          where u.Email == userToInsert.Email
+                          select new UserDto
+                          {
+                              UserId = u.UserId,
+                              Name = u.Name,
+                              Email = u.Email,
+                              userType = u.UserType
+                          };
+            return newUser.Last();
         }
 
         public UserDto GetUserByEmail(string userEmail)
         {
-             throw new NotImplementedException();
+            var user = from u in _context.Users
+                       where u.Email == userEmail
+                       select new UserDto
+                       {
+                           UserId = u.UserId,
+                           Name = u.Name,
+                           Email = u.Email,
+                           userType = u.UserType
+                       };
+            if (user.Count() == 0)
+            {
+                return null;
+            }
+            return user.Last();
         }
 
         public IEnumerable<UserDto> GetUsers()
         {
-            throw new NotImplementedException();
+            var users = from u in _context.Users
+                        select new UserDto
+                        {
+                            UserId = u.UserId,
+                            Name = u.Name,
+                            Email = u.Email,
+                            userType = u.UserType
+                        };
+            return users;
         }
 
     }
